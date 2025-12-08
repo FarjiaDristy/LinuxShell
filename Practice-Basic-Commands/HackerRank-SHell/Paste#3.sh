@@ -5,4 +5,7 @@ tr '\n' '\t'
 
 #sol2:
 paste -s -d '\t'
+#or
+paste -sd '\t' -
+
 
