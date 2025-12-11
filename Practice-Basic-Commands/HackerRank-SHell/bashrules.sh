@@ -1,0 +1,7 @@
+echo "first create sh file"
+echo "#!/bin/bash"
+echo "then write in file using nano or cat or vim"
+echo "then give executable permission to the file by writing chmod +x file.sh or to execute and run write bash +x bashfile.sh (can even add parameters)"
+echo "debug the code using bash +x file.sh then set -x set +x the certain section to be debugged"
+echo "bash +x also shows which commands were executed into output and also show output"
+echo "to run file ./bashfile.sh or with parameters ./bashfile.sh value"
