@@ -5,11 +5,13 @@
 awk '{
     avg = ($2 + $3 + $4) / 3
     if (avg >= 80)
-        print $1, "A"
+        grade = "A"
     else if (avg >= 60)
-        print $1, "B"
+        grade = "B"
     else if (avg >= 50)
-        print $1, "C"
+        grade = "C"
     else
-        print $1, "FAIL"
+        grade = "FAIL"
+
+    print $0, ":", grade
 }'
